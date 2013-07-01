@@ -3,7 +3,7 @@ class GoogleReaderKeys extends Plugin {
 	private $host;
 
 	function about() {
-		return array(1.0,
+		return array(1.1,
 			"Keyboard hotkeys emulate Google Reader",
 			"markwaters");
 	}
@@ -16,6 +16,7 @@ class GoogleReaderKeys extends Plugin {
 
 	function hook_hotkey_map($hotkeys) {
 
+//		             		                           // original key binding
 		$hotkeys["j"]		= "next_article_noscroll"; // prev_feed
 		$hotkeys["k"]		= "prev_article_noscroll"; // next_feed
 		$hotkeys["n"]		= "next_article_noexpand"; // next_article
@@ -24,8 +25,8 @@ class GoogleReaderKeys extends Plugin {
 		$hotkeys["*p"]		= "prev_feed";             // article_scroll_up
 		$hotkeys["v"]		= "open_in_new_window";
 		$hotkeys["r"]		= "feed_refresh";
-//		$hotkeys["s"]		= "toggle_mark";
-//		$hotkeys["*s"]		= "toggle_publ";
+//		$hotkeys["s"]		= "toggle_mark";           // no change
+//		$hotkeys["*s"]		= "toggle_publ";           // no change
 		$hotkeys["m"]		= "toggle_unread";
 		$hotkeys["t"]		= "edit_tags";
 		$hotkeys["o"]		= "toggle_expand";         // open_in_new_window
