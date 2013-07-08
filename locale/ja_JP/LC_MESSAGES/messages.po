@@ -1456,7 +1456,6 @@ msgid "Error: please upload OPML file."
 msgstr "エラー: OPML ファイルをアップロードしてください。"
 
 #: classes/opml.php:492
-#, fuzzy
 msgid "Error: unable to find moved OPML file."
 msgstr "エラー: 移動された OPML ファイルが見つかりません。"
 
@@ -1531,9 +1530,9 @@ msgid "Changed password of user <b>%s</b> to <b>%s</b>"
 msgstr "ユーザー <b>%s</b> のパスワードを <b>%s</b> に変更しました"
 
 #: classes/pref/users.php:271
-#, fuzzy, php-format
+#, php-format
 msgid "Sending new password of user <b>%s</b> to <b>%s</b>"
-msgstr "ユーザー <b>%s</b> のパスワードを <b>%s</b> に送信しています"
+msgstr "ユーザー <b>%s</b> の新しいパスワードを <b>%s</b> に送信しています"
 
 #: classes/pref/users.php:295
 msgid "[tt-rss] Password change notification"
@@ -1846,9 +1845,8 @@ msgid "Maximum age of fresh articles (in hours)"
 msgstr "新規記事としての取り扱い期限 (単位: 時間)"
 
 #: classes/pref/prefs.php:41
-#, fuzzy
 msgid "Hide feeds with no unread articles"
-msgstr "未読でないメッセージとフィードを隠す"
+msgstr "未読記事がないフィードを隠す"
 
 #: classes/pref/prefs.php:42
 msgid "Show special feeds when hiding read feeds"
@@ -1867,7 +1865,6 @@ msgid "Automatically open next feed with unread articles after marking one as re
 msgstr ""
 
 #: classes/pref/prefs.php:45
-#, fuzzy
 msgid "Purge articles after this number of days (0 - disables)"
 msgstr "この日数よりあとの古い投稿を削除する (0 は無効です)"
 
@@ -1888,9 +1885,8 @@ msgid "Show content preview in headlines list"
 msgstr "ヘッドライン一覧に内容のプレビューを表示する"
 
 #: classes/pref/prefs.php:50
-#, fuzzy
 msgid "Sort headlines by feed date"
-msgstr "未読記事数によるフィードの並び替え"
+msgstr "フィード日時によるヘッドラインの並び替え"
 
 #: classes/pref/prefs.php:50
 msgid "Use feed-specified date to sort headlines instead of local import date."
@@ -1918,9 +1914,8 @@ msgstr ""
 
 #: classes/pref/prefs.php:54
 #: js/prefs.js:1719
-#, fuzzy
 msgid "Customize stylesheet"
-msgstr "ユーザースタイルシートの URL"
+msgstr "スタイルシートのカスタマイズ"
 
 #: classes/pref/prefs.php:54
 msgid "Customize CSS stylesheet to your liking"
@@ -1928,7 +1923,7 @@ msgstr ""
 
 #: classes/pref/prefs.php:55
 msgid "Time zone"
-msgstr ""
+msgstr "タイムゾーン"
 
 #: classes/pref/prefs.php:56
 msgid "Group headlines in virtual feeds"
@@ -1939,12 +1934,10 @@ msgid "Special feeds, labels, and categories are grouped by originating feeds"
 msgstr ""
 
 #: classes/pref/prefs.php:57
-#, fuzzy
 msgid "Language"
-msgstr "言語:"
+msgstr "言語"
 
 #: classes/pref/prefs.php:58
-#, fuzzy
 msgid "Theme"
 msgstr "テーマ"
 
@@ -1978,9 +1971,8 @@ msgid "Unknown option: %s"
 msgstr "不明なオプション: %s"
 
 #: classes/pref/prefs.php:156
-#, fuzzy
 msgid "Your personal data has been saved."
-msgstr "パスワードを変更しました。"
+msgstr "個人データを変更しました。"
 
 #: classes/pref/prefs.php:176
 msgid "Your preferences are now set to default values."
@@ -1997,7 +1989,7 @@ msgstr "個人データ"
 
 #: classes/pref/prefs.php:228
 msgid "Full name"
-msgstr ""
+msgstr "フルネーム"
 
 #: classes/pref/prefs.php:232
 msgid "E-mail"
@@ -2008,20 +2000,16 @@ msgid "Access level"
 msgstr "アクセスレベル"
 
 #: classes/pref/prefs.php:248
-#, fuzzy
 msgid "Save data"
 msgstr "保存"
 
 #: classes/pref/prefs.php:267
-#, fuzzy
 msgid "Your password is at default value, please change it."
-msgstr ""
-"パスワードが標準のままです。\n"
-"                                                変更してください。"
+msgstr "パスワードが標準のままです。変更してください。"
 
 #: classes/pref/prefs.php:294
 msgid "Changing your current password will disable OTP."
-msgstr ""
+msgstr "現在のパスワードを変更すると OTP が無効化されます。"
 
 #: classes/pref/prefs.php:299
 msgid "Old password"
@@ -2049,14 +2037,12 @@ msgstr ""
 
 #: classes/pref/prefs.php:352
 #: classes/pref/prefs.php:403
-#, fuzzy
 msgid "Enter your password"
-msgstr "ユーザー名かパスワードが正しくありません"
+msgstr "パスワードの入力"
 
 #: classes/pref/prefs.php:363
-#, fuzzy
 msgid "Disable OTP"
-msgstr "(無効です)"
+msgstr "OTP を無効にする"
 
 #: classes/pref/prefs.php:369
 msgid "You will need a compatible Authenticator to use this. Changing your password would automatically disable OTP."
@@ -2067,14 +2053,12 @@ msgid "Scan the following code by the Authenticator application:"
 msgstr ""
 
 #: classes/pref/prefs.php:408
-#, fuzzy
 msgid "Enter the generated one time password"
-msgstr "このアーティクルのノートを入力してください:"
+msgstr "生成されたワンタイムパスワードを入力してください"
 
 #: classes/pref/prefs.php:422
-#, fuzzy
 msgid "Enable OTP"
-msgstr "有効にする"
+msgstr "OTP を有効にする"
 
 #: classes/pref/prefs.php:428
 msgid "PHP GD functions are required for OTP support."
@@ -2085,37 +2069,33 @@ msgid "Some preferences are only available in default profile."
 msgstr ""
 
 #: classes/pref/prefs.php:569
-#, fuzzy
 msgid "Customize"
-msgstr "ユーザースタイルシートの URL"
+msgstr "カスタマイズ"
 
 #: classes/pref/prefs.php:629
-#, fuzzy
 msgid "Register"
-msgstr "登録済み"
+msgstr "登録"
 
 #: classes/pref/prefs.php:633
 msgid "Clear"
-msgstr ""
+msgstr "消去"
 
 #: classes/pref/prefs.php:639
 #, php-format
 msgid "Current server time: %s (UTC)"
-msgstr ""
+msgstr "現在のサーバー時刻: %s (UTC)"
 
 #: classes/pref/prefs.php:671
 msgid "Save configuration"
 msgstr "設定を保存する"
 
 #: classes/pref/prefs.php:675
-#, fuzzy
 msgid "Save and exit preferences"
-msgstr "設定を終了する"
+msgstr "設定を保存して終了する"
 
 #: classes/pref/prefs.php:680
-#, fuzzy
 msgid "Manage profiles"
-msgstr "フィルターを作成する"
+msgstr "プロファイルを管理する"
 
 #: classes/pref/prefs.php:683
 msgid "Reset to defaults"
@@ -2123,40 +2103,39 @@ msgstr "標準に戻す"
 
 #: classes/pref/prefs.php:706
 msgid "Plugins"
-msgstr ""
+msgstr "プラグイン"
 
 #: classes/pref/prefs.php:708
 msgid "You will need to reload Tiny Tiny RSS for plugin changes to take effect."
-msgstr ""
+msgstr "プラグインの変更を反映するためには Tiny Tiny RSS を再読み込みする必要があります。"
 
 #: classes/pref/prefs.php:710
 msgid "Download more plugins at tt-rss.org <a class=\"visibleLink\" target=\"_blank\" href=\"http://tt-rss.org/forum/viewforum.php?f=22\">forums</a> or <a target=\"_blank\" class=\"visibleLink\" href=\"http://tt-rss.org/wiki/Plugins\">wiki</a>."
-msgstr ""
+msgstr "tt-rss.org の <a class=\"visibleLink\" target=\"_blank\" href=\"http://tt-rss.org/forum/viewforum.php?f=22\">forums</a> か <a target=\"_blank\" class=\"visibleLink\" href=\"http://tt-rss.org/wiki/Plugins\">wiki</a> で他のプラグインをダウンロードできます。"
 
 #: classes/pref/prefs.php:736
 msgid "System plugins"
-msgstr ""
+msgstr "システムプラグイン"
 
 #: classes/pref/prefs.php:740
 #: classes/pref/prefs.php:794
 msgid "Plugin"
-msgstr ""
+msgstr "プラグイン"
 
 #: classes/pref/prefs.php:741
 #: classes/pref/prefs.php:795
-#, fuzzy
 msgid "Description"
 msgstr "説明"
 
 #: classes/pref/prefs.php:742
 #: classes/pref/prefs.php:796
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: classes/pref/prefs.php:743
 #: classes/pref/prefs.php:797
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: classes/pref/prefs.php:772
 #: classes/pref/prefs.php:829
@@ -2165,29 +2144,25 @@ msgstr ""
 
 #: classes/pref/prefs.php:781
 #: classes/pref/prefs.php:838
-#, fuzzy
 msgid "Clear data"
-msgstr "フィードデータの消去"
+msgstr "データの消去"
 
 #: classes/pref/prefs.php:790
 msgid "User plugins"
-msgstr ""
+msgstr "ユーザープラグイン"
 
 #: classes/pref/prefs.php:853
-#, fuzzy
 msgid "Enable selected plugins"
-msgstr "フィードアイコンを有効にする"
+msgstr "選択したプラグインを有効にする"
 
 #: classes/pref/prefs.php:920
-#, fuzzy
 msgid "Incorrect one time password"
-msgstr "ユーザー名かパスワードが正しくありません"
+msgstr "ワンタイムパスワードが正しくありません"
 
 #: classes/pref/prefs.php:923
 #: classes/pref/prefs.php:940
-#, fuzzy
 msgid "Incorrect password"
-msgstr "ユーザー名かパスワードが正しくありません"
+msgstr "パスワードが正しくありません"
 
 #: classes/pref/prefs.php:965
 #, php-format
@@ -2195,9 +2170,8 @@ msgid "You can override colors, fonts and layout of your currently selected them
 msgstr ""
 
 #: classes/pref/prefs.php:1005
-#, fuzzy
 msgid "Create profile"
-msgstr "フィルターを作成する"
+msgstr "プロファイルを作成する"
 
 #: classes/pref/prefs.php:1028
 #: classes/pref/prefs.php:1056
@@ -2205,12 +2179,10 @@ msgid "(active)"
 msgstr "(有効)"
 
 #: classes/pref/prefs.php:1090
-#, fuzzy
 msgid "Remove selected profiles"
-msgstr "選択されたプロファイルを削除しますか?"
+msgstr "選択されたプロファイルを削除しますか"
 
 #: classes/pref/prefs.php:1092
-#, fuzzy
 msgid "Activate profile"
 msgstr "プロファイルを有効にする"
 
@@ -2266,9 +2238,8 @@ msgstr "ローカルに画像をキャッシュする"
 
 #: classes/pref/feeds.php:711
 #: classes/pref/feeds.php:901
-#, fuzzy
 msgid "Mark updated articles as unread"
-msgstr "すべての記事を既読にしますか?"
+msgstr "更新された記事を既読にする"
 
 #: classes/pref/feeds.php:717
 #, fuzzy
@@ -2294,9 +2265,8 @@ msgid "All done."
 msgstr "すべて終了しました。"
 
 #: classes/pref/feeds.php:1264
-#, fuzzy
 msgid "Feeds with errors"
-msgstr "フィードエディター"
+msgstr "エラーのあったフィード"
 
 #: classes/pref/feeds.php:1284
 #, fuzzy
@@ -2315,9 +2285,8 @@ msgid "Batch subscribe"
 msgstr "購読をやめる"
 
 #: classes/pref/feeds.php:1332
-#, fuzzy
 msgid "Categories"
-msgstr "カテゴリー:"
+msgstr "カテゴリー"
 
 #: classes/pref/feeds.php:1335
 #, fuzzy
@@ -2330,7 +2299,6 @@ msgid "Remove selected"
 msgstr "選択されたフィルターを削除しますか?"
 
 #: classes/pref/feeds.php:1350
-#, fuzzy
 msgid "More actions..."
 msgstr "操作..."
 
@@ -2369,7 +2337,6 @@ msgid "Include settings"
 msgstr "電子メールダイジェストに含む"
 
 #: classes/pref/feeds.php:1434
-#, fuzzy
 msgid "Export OPML"
 msgstr "OPML エクスポート"
 
@@ -2390,7 +2357,6 @@ msgid "Display published OPML URL"
 msgstr ""
 
 #: classes/pref/feeds.php:1452
-#, fuzzy
 msgid "Firefox integration"
 msgstr "Firefox 統合"
 
@@ -2436,7 +2402,6 @@ msgstr "エラーのため、フィードは更新されませんでした:"
 
 #: classes/pref/feeds.php:1604
 #: classes/pref/feeds.php:1670
-#, fuzzy
 msgid "Click to edit feed"
 msgstr "編集するにはクリック"
 
@@ -2455,23 +2420,20 @@ msgid "Feeds to subscribe, One per line"
 msgstr ""
 
 #: classes/pref/feeds.php:1826
-#, fuzzy
 msgid "Feeds require authentication."
 msgstr "このフィードは認証を要求します。"
 
 #: classes/pref/system.php:29
 msgid "Error Log"
-msgstr ""
+msgstr "エラーログ"
 
 #: classes/pref/system.php:40
-#, fuzzy
 msgid "Refresh"
 msgstr "再描画"
 
 #: classes/pref/system.php:43
-#, fuzzy
 msgid "Clear log"
-msgstr "色の消去"
+msgstr "ログの消去"
 
 #: classes/pref/system.php:48
 msgid "Error"
@@ -2508,7 +2470,6 @@ msgid "Tags to consider NSFW (comma-separated)"
 msgstr ""
 
 #: plugins/nsfw/init.php:98
-#, fuzzy
 msgid "Configuration saved."
 msgstr "設定を保存しました。"
 
