@@ -877,7 +877,7 @@ function hotkey_handler(e) {
 
 		var hotkeys = getInitParam("hotkeys");
 
-		if (!hotkey_prefix && hotkeys[0].indexOf(keychar) != -1) {
+		if (!shift_key && !ctrl_key && !hotkey_prefix && hotkeys[0].indexOf(keychar) != -1) {
 
 			var date = new Date();
 			var ts = Math.round(date.getTime() / 1000);
