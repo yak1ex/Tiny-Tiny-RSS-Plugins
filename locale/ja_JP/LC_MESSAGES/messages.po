@@ -961,7 +961,7 @@ msgstr "ラベル:"
 
 #: classes/handler/public.php:475
 msgid "Shared article will appear in the Published feed."
-msgstr "共有した記事は発行したフィードに表示されます"
+msgstr "共有した記事は「公開済みの記事」に表示されます。"
 
 #: classes/handler/public.php:477
 msgid "Share"
@@ -1013,7 +1013,7 @@ msgstr "<b>%s</b> は購読できませんでした。<br>フィードの URL �
 #: classes/handler/public.php:629
 #: classes/handler/public.php:721
 msgid "Subscribe to selected feed"
-msgstr "選択されたフィードを購読する"
+msgstr "選択したフィードを購読する"
 
 #: classes/handler/public.php:654
 #: classes/handler/public.php:745
@@ -1285,7 +1285,7 @@ msgstr "いくつかのフィードの更新エラーです (詳細はクリッ�
 
 #: classes/feeds.php:912
 msgid "No feed selected."
-msgstr "フィードは選択されていません。"
+msgstr "フィードが選択されていません。"
 
 #: classes/feeds.php:965
 #: classes/feeds.php:973
@@ -2189,7 +2189,7 @@ msgstr "(有効)"
 
 #: classes/pref/prefs.php:1094
 msgid "Remove selected profiles"
-msgstr "選択されたプロファイルを削除しますか"
+msgstr "選択したプロファイルを削除しますか"
 
 #: classes/pref/prefs.php:1096
 msgid "Activate profile"
@@ -2295,7 +2295,7 @@ msgstr "カテゴリーを追加"
 
 #: classes/pref/feeds.php:1327
 msgid "Remove selected"
-msgstr "選択されたカテゴリーを削除"
+msgstr "選択したカテゴリーを削除"
 
 #: classes/pref/feeds.php:1338
 msgid "More actions..."
@@ -2367,11 +2367,11 @@ msgstr "クリックするとフィードリーダーとしてこのサイトを
 
 #: classes/pref/feeds.php:1457
 msgid "Published & shared articles / Generated feeds"
-msgstr "公開・共有された記事 / 生成されたフィード"
+msgstr "公開・共有した記事 / 生成したフィード"
 
 #: classes/pref/feeds.php:1459
 msgid "Published articles are exported as a public RSS feed and can be subscribed by anyone who knows the URL specified below."
-msgstr "公開された記事は公開 RSS フィードとしてエクスポートされ、以下の URL を知っている人であれば誰でも購読できます。"
+msgstr "公開した記事は公開 RSS フィードとしてエクスポートされ、以下の URL を知っている人であれば誰でも購読できます。"
 
 #: classes/pref/feeds.php:1467
 msgid "Display URL"
@@ -2393,7 +2393,7 @@ msgstr "編集するにはクリック"
 #: classes/pref/feeds.php:1602
 #: classes/pref/feeds.php:1670
 msgid "Unsubscribe from selected feeds"
-msgstr "選択されたフィードの購読をやめる"
+msgstr "選択したフィードの購読をやめる"
 
 #: classes/pref/feeds.php:1775
 msgid "Add one valid RSS feed per line (no feed detection is done)"
@@ -2621,7 +2621,7 @@ msgstr "お気に入りの項目をインポートする"
 #: plugins/vf_shared/init.php:16
 #: plugins/vf_shared/init.php:54
 msgid "Shared articles"
-msgstr "共有された記事"
+msgstr "共有した記事"
 
 #: plugins/instances/init.php:141
 msgid "Linked"
@@ -2911,7 +2911,7 @@ msgstr "さらなるフィード"
 #: js/prefs.js:1194
 #: js/prefs.js:1339
 msgid "No feeds are selected."
-msgstr "選択されたフィードはありません。"
+msgstr "フィードが選択されていません。"
 
 #: js/functions.js:1702
 msgid "Remove selected feeds from the archive? Feeds with stored articles will not be removed."
@@ -2924,12 +2924,12 @@ msgstr "更新エラーのあるフィード"
 #: js/functions.js:1752
 #: js/prefs.js:1176
 msgid "Remove selected feeds?"
-msgstr "選択されたフィードを削除しますか?"
+msgstr "選択したフィードを削除しますか?"
 
 #: js/functions.js:1755
 #: js/prefs.js:1179
 msgid "Removing selected feeds..."
-msgstr "選択されたフィードを削除しています..."
+msgstr "選択したフィードを削除しています..."
 
 #: js/functions.js:1853
 msgid "Help"
@@ -2994,36 +2994,36 @@ msgstr "選択したユーザーを削除しますか?標準の admin あるい�
 
 #: js/prefs.js:329
 msgid "Removing selected users..."
-msgstr "選択されたユーザーを削除しています..."
+msgstr "選択したユーザーを削除しています..."
 
 #: js/prefs.js:343
 #: js/prefs.js:487
 #: js/prefs.js:508
 #: js/prefs.js:547
 msgid "No users are selected."
-msgstr "選択されたユーザーはありません。"
+msgstr "ユーザーが選択されていません。"
 
 #: js/prefs.js:361
 msgid "Remove selected filters?"
-msgstr "選択されたフィルターを削除しますか?"
+msgstr "選択したフィルターを削除しますか?"
 
 #: js/prefs.js:364
 msgid "Removing selected filters..."
-msgstr "選択されたフィルターを削除しています..."
+msgstr "選択したフィルターを削除しています..."
 
 #: js/prefs.js:376
 #: js/prefs.js:584
 #: js/prefs.js:603
 msgid "No filters are selected."
-msgstr "選択されたフィルターはありません。"
+msgstr "フィルターが選択されていません。"
 
 #: js/prefs.js:395
 msgid "Unsubscribe from selected feeds?"
-msgstr "選択されたフィードの購読をやめますか?"
+msgstr "選択したフィードの購読をやめますか?"
 
 #: js/prefs.js:399
 msgid "Unsubscribing from selected feeds..."
-msgstr "選択されたフィードの購読を解除しています..."
+msgstr "選択したフィードの購読を解除しています..."
 
 #: js/prefs.js:429
 msgid "Please select only one feed."
@@ -3035,7 +3035,7 @@ msgstr "選択したフィード内のお気に入りしていない記事をす
 
 #: js/prefs.js:438
 msgid "Clearing selected feed..."
-msgstr "選択されたフィードを消去しています..."
+msgstr "選択したフィードを消去しています..."
 
 #: js/prefs.js:457
 msgid "How many days of articles to keep (0 - use default)?"
@@ -3043,7 +3043,7 @@ msgstr "記事を維持したい日数は? (0: 標準を使う)"
 
 #: js/prefs.js:460
 msgid "Purging selected feed..."
-msgstr "選択されたフィードを削除しています..."
+msgstr "選択したフィードを削除しています..."
 
 #: js/prefs.js:492
 #: js/prefs.js:513
@@ -3069,7 +3069,7 @@ msgstr "フィルターをひとつだけ選択してください。"
 
 #: js/prefs.js:607
 msgid "Combine selected filters?"
-msgstr "選択されたフィルターを結合しますか?"
+msgstr "選択したフィルターを結合しますか?"
 
 #: js/prefs.js:610
 msgid "Joining filters..."
@@ -3111,15 +3111,15 @@ msgstr "カテゴリーを削除しています..."
 
 #: js/prefs.js:1110
 msgid "Remove selected categories?"
-msgstr "選択されたカテゴリーを削除しますか?"
+msgstr "選択したカテゴリーを削除しますか?"
 
 #: js/prefs.js:1113
 msgid "Removing selected categories..."
-msgstr "選択されたカテゴリーを削除しています..."
+msgstr "選択したカテゴリーを削除しています..."
 
 #: js/prefs.js:1126
 msgid "No categories are selected."
-msgstr "選択されたカテゴリーはありません。"
+msgstr "カテゴリーが選択されていません。"
 
 #: js/prefs.js:1134
 msgid "Category title:"
@@ -3147,7 +3147,7 @@ msgstr "選択したフィードの記事のスコアを再計算しますか?"
 
 #: js/prefs.js:1326
 msgid "Rescoring selected feeds..."
-msgstr "選択されたフィードのスコアを再計算しています..."
+msgstr "選択したフィードのスコアを再計算しています..."
 
 #: js/prefs.js:1346
 msgid "Rescore all articles? This operation may take a lot of time."
@@ -3171,7 +3171,7 @@ msgstr "選択したプロファイルを削除しますか?現在のプロフ�
 
 #: js/prefs.js:1415
 msgid "Removing selected profiles..."
-msgstr "選択されたプロファイルを削除しています..."
+msgstr "選択したプロファイルを削除しています..."
 
 #: js/prefs.js:1430
 msgid "No profiles are selected."
@@ -3180,7 +3180,7 @@ msgstr "プロファイルが選択されていません。"
 #: js/prefs.js:1438
 #: js/prefs.js:1491
 msgid "Activate selected profile?"
-msgstr "選択されたプロファイルを有効にしますか?"
+msgstr "選択したプロファイルを有効にしますか?"
 
 #: js/prefs.js:1454
 #: js/prefs.js:1507
@@ -3302,12 +3302,12 @@ msgstr[0] "%d 件の記事を選択"
 #: plugins/mailto/init.js:7
 #: plugins/mail/mail.js:7
 msgid "No articles are selected."
-msgstr "記事は選択されていません。"
+msgstr "記事が選択されていません。"
 
 #: js/viewfeed.js:1038
 msgid "Delete %d selected article in %s?"
 msgid_plural "Delete %d selected articles in %s?"
-msgstr[0] "「%s」の選択した %d 件の記事を削除しますか?"
+msgstr[0] "選択した「%s」の %d 件の記事を削除しますか?"
 
 #: js/viewfeed.js:1040
 msgid "Delete %d selected article?"
@@ -3317,7 +3317,7 @@ msgstr[0] "選択した %d 件の記事を削除しますか?"
 #: js/viewfeed.js:1082
 msgid "Archive %d selected article in %s?"
 msgid_plural "Archive %d selected articles in %s?"
-msgstr[0] "「%s」の選択した %d 件の記事を保管しますか?"
+msgstr[0] "選択した「%s」の %d 件の記事を保管しますか?"
 
 #: js/viewfeed.js:1085
 msgid "Move %d archived article back?"
@@ -3331,7 +3331,7 @@ msgstr "お気に入りから外した記事は次回フィード更新時に削
 #: js/viewfeed.js:1132
 msgid "Mark %d selected article in %s as read?"
 msgid_plural "Mark %d selected articles in %s as read?"
-msgstr[0] "「%s」の選択した %d 件の記事を既読に設定しますか?"
+msgstr[0] "選択した「%s」の %d 件の記事を既読に設定しますか?"
 
 #: js/viewfeed.js:1156
 msgid "Edit article Tags"
@@ -3343,11 +3343,11 @@ msgstr "記事のタグを保存しています..."
 
 #: js/viewfeed.js:1399
 msgid "No article is selected."
-msgstr "選択された記事はありません。"
+msgstr "記事が選択されていません。"
 
 #: js/viewfeed.js:1434
 msgid "No articles found to mark"
-msgstr "マークした記事が見つかりません"
+msgstr "記事が選択されていません。"
 
 #: js/viewfeed.js:1436
 msgid "Mark %d article as read?"
@@ -3476,3 +3476,1092 @@ msgstr "記事の共有を解除しようとしています..."
 #: plugins/updater/updater.js:58
 msgid "Backup your tt-rss directory before continuing. Please type 'yes' to continue."
 msgstr "続ける前に tt-rss ディレクトリをバックアップしてください。続けるには 'yes' と入力してください。"
+
+#~ msgid "Change password to"
+#~ msgstr "次のパスワードに変更する:"
+
+#~ msgid "E-mail: "
+#~ msgstr "電子メール: "
+
+#~ msgid "Login field cannot be blank."
+#~ msgstr "ログイン名の項目は空にできません。"
+
+#~ msgid "Saving user..."
+#~ msgstr "ユーザーを保存しています..."
+
+#~ msgid "Toggle marked"
+#~ msgstr "お気に入りを切り替える"
+
+#~ msgid "(Un)hide empty categories"
+#~ msgstr "カテゴリーの編集"
+
+#~ msgid "Published articles and generated feeds"
+#~ msgstr "選択したフィードの記事のスコアを再計算しますか?"
+
+#~ msgid "Articles shared by URL"
+#~ msgstr "記事をお気に入りにする"
+
+#~ msgid "These feeds have not been updated because of errors:"
+#~ msgstr "エラーのため、フィードは更新されませんでした:"
+
+#~ msgid "Hello,"
+#~ msgstr "ようこそ、"
+
+#~ msgid "Enable categories"
+#~ msgstr "フィードカテゴリーを有効にする"
+
+#~ msgid "Browse categories like folders"
+#~ msgstr "カテゴリーの順序をリセットする"
+
+#~ msgid "Show images in posts"
+#~ msgstr "記事内に画像を表示しない"
+
+#~ msgid "Hide read articles and feeds"
+#~ msgstr "読んだフィードを隠す/再表示する"
+
+#~ msgid "Sort feeds by unread count"
+#~ msgstr "未読記事数によるフィードの並び替え"
+
+#~ msgid "Article archive"
+#~ msgstr "記事の日付"
+
+#~ msgid "Example Pane"
+#~ msgstr "例"
+
+#~ msgid "Set value"
+#~ msgstr "お気に入りに設定する"
+
+#~ msgid "Mark %d displayed article as read?"
+#~ msgid_plural "Mark %d displayed articles as read?"
+#~ msgstr[0] "%d 件のマークした記事を既読として設定しますか?"
+#~ msgstr[1] "%d 件のマークした記事を既読として設定しますか?"
+
+#~ msgid "Error: unable to load article."
+#~ msgstr "エラー: OPML ファイルをアップロードしてください。"
+
+#~ msgid "Click to expand article."
+#~ msgstr "開いた記事のクリック"
+
+#~ msgid "%d more..."
+#~ msgid_plural "%d more..."
+#~ msgstr[0] "ヘルプを読み込んでいます..."
+#~ msgstr[1] "ヘルプを読み込んでいます..."
+
+#~ msgid "No unread feeds."
+#~ msgstr "読んだフィードを隠す/再表示する"
+
+#~ msgid "Load more..."
+#~ msgstr "ヘルプを読み込んでいます..."
+
+#~ msgid "Switch to digest..."
+#~ msgstr "ダイジェストに移行..."
+
+#~ msgid "Show tag cloud..."
+#~ msgstr "タグクラウド"
+
+#~ msgid "Click to play"
+#~ msgstr "クリックで表示"
+
+#~ msgid "Play"
+#~ msgstr "表示"
+
+#~ msgid "Visit the website"
+#~ msgstr "オフィシャルサイトに訪問する"
+
+#~ msgid "Select theme"
+#~ msgstr "テーマを選択する"
+
+#~ msgid "Playing..."
+#~ msgstr "フィード一覧を読み込んでいます..."
+
+#~ msgid "Default interval between feed updates"
+#~ msgstr "フィードの更新までの標準間隔 (単位:分)"
+
+#~ msgid "Could not update database"
+#~ msgstr "データベースを更新できません"
+
+#~ msgid "Could not find necessary schema file, need version:"
+#~ msgstr "必要なスキーマファイルを見つけられませんでした。次のバージョンが必要です:"
+
+#~ msgid ", found: "
+#~ msgstr ", 以下が見つかりました: "
+
+#~ msgid "Tiny Tiny RSS database is up to date."
+#~ msgstr "Tiny Tiny RSS のデータベースを更新しました。"
+
+#~ msgid "Please backup your database before proceeding."
+#~ msgstr "実行前にデータベースのバックアップをしてください。"
+
+#~ msgid "Your Tiny Tiny RSS database needs update to the latest version (<b>%d</b> to <b>%d</b>)."
+#~ msgstr "Tiny Tiny RSS は最新のバージョンに更新する必要があります (<b>%d</b> から <b>%d</b>)。"
+
+#~ msgid "Performing updates..."
+#~ msgstr "更新を実行しています..."
+
+#~ msgid "Updating to version %d..."
+#~ msgstr "バージョン %d を確認しています..."
+
+#~ msgid "Checking version... "
+#~ msgstr "バージョンを確認しています..."
+
+#~ msgid "OK!"
+#~ msgstr "OK!"
+
+#~ msgid "ERROR!"
+#~ msgstr "エラー!"
+
+#~ msgid "Finished. Performed <b>%d</b> update up to schema version <b>%d</b>."
+#~ msgid_plural "Finished. Performed <b>%d</b> updates up to schema version <b>%d</b>."
+#~ msgstr[0] "完了しました。<b>%d</b> 個のテーブルをスキーマーバージョン<b>%d</b> に更新しました。"
+#~ msgstr[1] "完了しました。<b>%d</b> 個のテーブルをスキーマーバージョン<b>%d</b> に更新しました。"
+
+#~ msgid "Your database schema is from a newer version of Tiny Tiny RSS."
+#~ msgstr "Databaseスキーマは、Tiny Tiny RSSの新しいバージョンからのものです。"
+
+#~ msgid "Found schema version: <b>%d</b>, required: <b>%d</b>."
+#~ msgstr "スキーマバージョンが: <b>%d</b>, でした。 以下が必要です: <b>%d</b>."
+
+#~ msgid "Schema upgrade impossible. Please update Tiny Tiny RSS files to the newer version and continue."
+#~ msgstr "スキーマアップグレードができません。Tiny Tiny RSSを新しいバージョンに更新してから続けてください。"
+
+#~ msgid "Mark feed as read"
+#~ msgstr "マークしたフィードを既読にする"
+
+#~ msgid "Title or Content"
+#~ msgstr "題名か内容"
+
+#~ msgid "Link"
+#~ msgstr "リンク"
+
+#~ msgid "Content"
+#~ msgstr "内容"
+
+#~ msgid "Article Date"
+#~ msgstr "記事の日付"
+
+#~ msgid "Delete article"
+#~ msgstr "記事を消去する"
+
+#~ msgid "Set starred"
+#~ msgstr "お気に入りに設定する"
+
+#~ msgid "Assign tags"
+#~ msgstr "タグの割り当て"
+
+#~ msgid "Modify score"
+#~ msgstr "スコアを変更する"
+
+#~ msgid "Date syntax appears to be correct:"
+#~ msgstr "古いパスワードが不正確です。"
+
+#~ msgid "Date syntax is incorrect."
+#~ msgstr "古いパスワードが不正確です。"
+
+#~ msgid "(%d feed)"
+#~ msgid_plural "(%d feeds)"
+#~ msgstr[0] "フィードを編集する"
+#~ msgstr[1] "フィードを編集する"
+
+#~ msgid "Notice"
+#~ msgstr "通知"
+
+#~ msgid "Tag Cloud"
+#~ msgstr "タグクラウド"
+
+#~ msgid "Mark all visible articles in %s as read?"
+#~ msgstr "「%s」のすべての可視記事を既読に設定しますか?"
+
+#~ msgid "Form secret key incorrect. Please enable cookies and try again."
+#~ msgstr "シークレットキーが正しくありません。クッキーを有効にして再度実行してください。"
+
+#~ msgid "Score"
+#~ msgstr "スコア"
+
+#~ msgid "Completed."
+#~ msgstr "完了しました"
+
+#~ msgid "Share on identi.ca"
+#~ msgstr "題名"
+
+#~ msgid "Flattr this article."
+#~ msgstr "記事をお気に入りにする"
+
+#~ msgid "Share on Google+"
+#~ msgstr "題名"
+
+#~ msgid "Share on Twitter"
+#~ msgstr "題名"
+
+#~ msgid "Show additional preferences"
+#~ msgstr "設定を終了する"
+
+#~ msgid "Back to feeds"
+#~ msgstr "編集するにはクリック"
+
+#~ msgid "Updated"
+#~ msgstr "更新日時"
+
+#~ msgid "Notifying <b>%s</b>."
+#~ msgstr "<b>%s</b> の通知中です。"
+
+#~ msgid "Yes"
+#~ msgstr "はい"
+
+#~ msgid "No"
+#~ msgstr "いいえ"
+
+#~ msgid "Comments?"
+#~ msgstr "コメントしますか?"
+
+#~ msgid "Move between feeds"
+#~ msgstr "フィード間で移動する"
+
+#~ msgid "Move between articles"
+#~ msgstr "記事間で移動する"
+
+#~ msgid "Active article actions"
+#~ msgstr "有効な記事の操作"
+
+#~ msgid "Dismiss read articles"
+#~ msgstr "読んだ記事が見えないように隠す"
+
+#~ msgid "Scroll article content"
+#~ msgstr "記事の内容をスクロールする"
+
+#~ msgid "Other actions"
+#~ msgstr "その他の操作"
+
+#~ msgid "Display this help dialog"
+#~ msgstr "このヘルプダイアログの表示"
+
+#~ msgid "Multiple articles actions"
+#~ msgstr "すべての記事"
+
+#~ msgid "Select starred articles"
+#~ msgstr "未読記事を削除する"
+
+#~ msgid "Feed actions"
+#~ msgstr "フィード操作"
+
+#~ msgid "Press any key to close this window."
+#~ msgstr "何かキーを押して、このウィンドウを閉じてください。"
+
+#~ msgid "My Feeds"
+#~ msgstr "自分のフィード"
+
+#~ msgid "Other Feeds"
+#~ msgstr "その他のフィード"
+
+#~ msgid "Panel actions"
+#~ msgstr "パネル操作"
+
+#~ msgid "Top 25 feeds"
+#~ msgstr "トップ 25 フィード"
+
+#~ msgid "Edit feed categories"
+#~ msgstr "フィードカテゴリーを編集する"
+
+#~ msgid "Open article in new tab"
+#~ msgstr "新しいウィンドウで記事を開く"
+
+#~ msgid "Right-to-left content"
+#~ msgstr "右から左のコンテンツ"
+
+#~ msgid "Cache content locally"
+#~ msgstr "ローカルに画像をキャッシュする"
+
+#~ msgid "Loading..."
+#~ msgstr "フィード一覧を読み込んでいます..."
+
+#~ msgid "View in a tt-rss tab"
+#~ msgstr "新しいウィンドウで記事を開く"
+
+#~ msgid "Magpie"
+#~ msgstr "Magpie"
+
+#~ msgid "SimplePie"
+#~ msgstr "SimplePie"
+
+#~ msgid "match on"
+#~ msgstr "対象項目:"
+
+#~ msgid "Title or content"
+#~ msgstr "題名か内容"
+
+#~ msgid "Your request could not be completed."
+#~ msgstr "登録情報が完成していません。"
+
+#~ msgid "Can't update this kind of feed."
+#~ msgstr "フィードのこの種類を消去できません。"
+
+#~ msgid "Original article"
+#~ msgstr "元の記事内容を表示する"
+
+#~ msgid "Update feed"
+#~ msgstr "すべてのフィードの更新"
+
+#~ msgid "With subcategories"
+#~ msgstr "カテゴリーの編集"
+
+#~ msgid "<li>Adding category <b>%s</b>.</li>"
+#~ msgstr "カテゴリー <b>%s</b> の追加中です。"
+
+#~ msgid "OK"
+#~ msgstr "OK!"
+
+#~ msgid "before"
+#~ msgstr "前"
+
+#~ msgid "after"
+#~ msgstr "後"
+
+#~ msgid "Apply to category"
+#~ msgstr "カテゴリーの場所:"
+
+#~ msgid "Category <b>$%s</b> already exists in the database."
+#~ msgstr "カテゴリー <b>%s</b> はデータベースに既に存在します。"
+
+#~ msgid "No feed categories defined."
+#~ msgstr "フィードカテゴリーが定義されていません。"
+
+#~ msgid "Remove selected categories"
+#~ msgstr "選択されたカテゴリーを削除しますか?"
+
+#~ msgid "Twitter"
+#~ msgstr "題名"
+
+#~ msgid "Clear stored credentials"
+#~ msgstr "フィードデータの消去"
+
+#~ msgid "Created filter <b>%s</b>"
+#~ msgstr "フィルター <b>%s</b> を作成しました"
+
+#~ msgid "Attachment:"
+#~ msgstr "添付:"
+
+#~ msgid "Subscribing to feed..."
+#~ msgstr "フィードを購読しています..."
+
+#~ msgid "Filter Test Results"
+#~ msgstr "フィルター表現"
+
+#~ msgid "Feed Categories"
+#~ msgstr "カテゴリー:"
+
+#~ msgid "When \"Mark as read\" button is clicked in toolbar, automatically open next feed with unread articles."
+#~ msgstr "ツールバーの「既読に設定する」をクリックしたとき、自動的に次のフィードの未読記事を開きます。"
+
+#~ msgid "Importing using DOMXML."
+#~ msgstr "OPML のインポート中 (DOMXML 機能拡張を用いて)..."
+
+#~ msgid "Importing using DOMDocument."
+#~ msgstr "OPML のインポート中 (DOMDocument 機能拡張を用いて)..."
+
+#~ msgid "DOMXML extension is not found. It is required for PHP versions below 5."
+#~ msgstr "DOMXML 機能拡張が見つかりません。PHP バージョン 5 未満はそれを要求します。"
+
+#~ msgid "Cache images locally (SimplePie only)"
+#~ msgstr "ローカルに画像をキャッシュする"
+
+#~ msgid "Publish"
+#~ msgstr "公開済み"
+
+#~ msgid "Changed password of user <b>%s</b>."
+#~ msgstr "ユーザー <b>%s</b> のパスワードを変更しました。"
+
+#~ msgid "Content filtering"
+#~ msgstr "コンテンツフィルタリング"
+
+#~ msgid "See also:"
+#~ msgstr "参考:"
+
+#~ msgid "Remove:"
+#~ msgstr "削除"
+
+#~ msgid "Assign:"
+#~ msgstr "ラベルの割り当て:"
+
+#~ msgid "Toggle category reordering mode"
+#~ msgstr "カテゴリーの並び替えモードの切り替え"
+
+#~ msgid "Update all feeds"
+#~ msgstr "すべてのフィードの更新"
+
+#~ msgid "Sort by name or unread count"
+#~ msgstr "名前か未読数で並び替える"
+
+#~ msgid "feeds"
+#~ msgstr "フィード"
+
+#~ msgid "headlines"
+#~ msgstr "最終ヘッドライン:"
+
+#~ msgid "Click to expand article"
+#~ msgstr "開いた記事のクリック"
+
+#~ msgid "Update post on checksum change"
+#~ msgstr "チェックサムの変更で投稿を更新する"
+
+#~ msgid "Set articles as unread on update"
+#~ msgstr "更新時に未読として記事を設定する"
+
+#~ msgid "Importing OPML (using DOMXML extension)..."
+#~ msgstr "OPML のインポート中 (DOMXML 機能拡張を用いて)..."
+
+#~ msgid "Importing OPML (using DOMDocument extension)..."
+#~ msgstr "OPML のインポート中 (DOMDocument 機能拡張を用いて)..."
+
+#~ msgid "Error: can't find body element."
+#~ msgstr "エラー: 本文要素を見つけることができませんでした。"
+
+#~ msgid "No profiles selected."
+#~ msgstr "選択された記事はありません。"
+
+#~ msgid "Unknown error"
+#~ msgstr "未知のエラー"
+
+#~ msgid "Could not display feed (query failed). Please check label match syntax or local configuration."
+#~ msgstr "フィードを表示できません (問い合わせの失敗)。ラベル一致の文法かローカルの設定を確認してください。"
+
+#~ msgid "Publish article with a note"
+#~ msgstr "ノートと記事を公開する"
+
+#~ msgid "View article"
+#~ msgstr "記事フィルター"
+
+#~ msgid "Server error while trying to query feed URLs."
+#~ msgstr "さらにヘッドラインを読み込み中にエラーです。"
+
+#~ msgid "Subscribed to %d feed(s)."
+#~ msgstr "フィードを購読する:"
+
+#~ msgid "Fatal Exception"
+#~ msgstr "致命的なエラー"
+
+#~ msgid "audio/mpeg"
+#~ msgstr "audio/mpeg"
+
+#~ msgid "Enable offline reading"
+#~ msgstr "オフライン処理を有効にする"
+
+#~ msgid "Synchronize new articles for offline reading using Google Gears."
+#~ msgstr "Google Gears を用いたオフライン処理の新規記事を同期します。"
+
+#~ msgid "Default article limit"
+#~ msgstr "標準の記事制限"
+
+#~ msgid "Enable search toolbar"
+#~ msgstr "検索ツールバーを有効にする"
+
+#~ msgid "Open article links in new browser window"
+#~ msgstr "新しいブラウザーのウィンドウで記事のリンクを開く"
+
+#~ msgid "Link to user stylesheet to override default style, disabled if empty."
+#~ msgstr "標準のスタイルを上書きするスタイルシートへのリンクで、空の場合は無効です。"
+
+#~ msgid "Hide feedlist"
+#~ msgstr "フィード一覧を隠す"
+
+#~ msgid "Show additional information in feedlist"
+#~ msgstr "フィード一覧の追加情報を表示する"
+
+#~ msgid "Enable inline MP3 player"
+#~ msgstr "インライン MP3 プレイヤーを有効にする"
+
+#~ msgid "Activate"
+#~ msgstr "記事の日付"
+
+#~ msgid "Feed Browser"
+#~ msgstr "フィードブラウザー"
+
+#~ msgid "Update Errors"
+#~ msgstr "更新エラー"
+
+#~ msgid "Show last article times"
+#~ msgstr "最後の記事の時間を表示する"
+
+#~ msgid "Last&nbsp;Article"
+#~ msgstr "最後の記事"
+
+#~ msgid "You don't have any subscribed feeds."
+#~ msgstr "カテゴリーから購読をやめることができません。"
+
+#~ msgid "No matching feeds found."
+#~ msgstr "一致するフィルターが見つかりません。"
+
+#~ msgid "Filter Editor"
+#~ msgstr "フィルターエディター"
+
+#~ msgid "Params"
+#~ msgstr "パラメーター"
+
+#~ msgid "No filters defined."
+#~ msgstr "フィルターが定義されていません。"
+
+#~ msgid "Click to change color"
+#~ msgstr "色を変えるためにクリック"
+
+#~ msgid "No labels defined."
+#~ msgstr "ラベルが定義されていません。"
+
+#~ msgid "No matching labels found."
+#~ msgstr "一致するラベルが見つかりません。"
+
+#~ msgid "custom color:"
+#~ msgstr "カスタム色"
+
+#~ msgid "Can't add filter: nothing to match on."
+#~ msgstr "フィルターを追加できません: 一致するものがありません。"
+
+#~ msgid "Can't subscribe: no feed URL given."
+#~ msgstr "購読できません: フィード URL が入力されていません。"
+
+#~ msgid "Error: No feed URL given."
+#~ msgstr "エラー: フィードの URL が入力されていません。"
+
+#~ msgid "Error: Invalid feed URL."
+#~ msgstr "エラー: フィードの URL が正しくありません。"
+
+#~ msgid "Can't add profile: no name specified."
+#~ msgstr "カテゴリーが追加できません: 名前が指定されていません。"
+
+#~ msgid "Can't add category: no name specified."
+#~ msgstr "カテゴリーが追加できません: 名前が指定されていません。"
+
+#~ msgid "Save current configuration?"
+#~ msgstr "現在の設定を保存しますか?"
+
+#~ msgid "Please enter new label foreground color:"
+#~ msgstr "新しいラベルの前景色を入力してください:"
+
+#~ msgid "Please enter new label background color:"
+#~ msgstr "新しいラベルの背景色を入力してください:"
+
+#~ msgid "Saved filter <b>%s</b>"
+#~ msgstr "フィルター <b>%s</b> を保存しました"
+
+#~ msgid "Tags"
+#~ msgstr "タグ"
+
+#~ msgid "Show article summary in new window"
+#~ msgstr "記事の要約を新しいウィンドウで表示する"
+
+#~ msgid "toggle unread"
+#~ msgstr "未読/既読を切り替える"
+
+#~ msgid "(remove)"
+#~ msgstr "(削除)"
+
+#~ msgid "Offline reading"
+#~ msgstr "オフライン処理"
+
+#~ msgid "Cancel synchronization"
+#~ msgstr "同期の取り消し"
+
+#~ msgid "Synchronize"
+#~ msgstr "同期"
+
+#~ msgid "Remove stored data"
+#~ msgstr "保存したデータを削除する"
+
+#~ msgid "Go offline"
+#~ msgstr "オフラインに移行する"
+
+#~ msgid "Go online"
+#~ msgstr "オンラインに移行する"
+
+#~ msgid "Reset UI layout"
+#~ msgstr "UI レイアウトをリセットする"
+
+#~ msgid "Drag me to resize panels"
+#~ msgstr "パネルの大きさを変更するにはここをドラッグします"
+
+#~ msgid "Showing most popular tags "
+#~ msgstr "もっとも人気のあるタグを表示中 "
+
+#~ msgid "more tags"
+#~ msgstr "タグがありません"
+
+#~ msgid "Link to feed:"
+#~ msgstr "フィードへのリンク:"
+
+#~ msgid "Not linked"
+#~ msgstr "リンクされていません"
+
+#~ msgid "(linked to %s)"
+#~ msgstr "(%s へリンクしました)"
+
+#~ msgid "E-mail has been changed."
+#~ msgstr "電子メールを変更しました。"
+
+#~ msgid "Change e-mail"
+#~ msgstr "電子メールを変更する"
+
+#~ msgid "Please wait..."
+#~ msgstr "しばらくお待ちください..."
+
+#~ msgid "Data for offline browsing has not been downloaded yet."
+#~ msgstr "オフライン閲覧のためのデータはまだダウンロードされていません。"
+
+#~ msgid "Synchronizing feeds..."
+#~ msgstr "フィードを同期しています..."
+
+#~ msgid "Synchronizing categories..."
+#~ msgstr "カテゴリーを同期しています..."
+
+#~ msgid "Synchronizing labels..."
+#~ msgstr "ラベルを同期しています..."
+
+#~ msgid "Synchronizing articles..."
+#~ msgstr "記事を同期しています..."
+
+#~ msgid "Synchronizing articles (%d)..."
+#~ msgstr "記事 (%d) を同期しています..."
+
+#~ msgid "Last sync: %s"
+#~ msgstr "最終同期: %s"
+
+#~ msgid "Last sync: Error receiving data."
+#~ msgstr "最終同期: データの受信中にエラーです。"
+
+#~ msgid "Synchronizing..."
+#~ msgstr "同期しています..."
+
+#~ msgid "Switch Tiny Tiny RSS into offline mode?"
+#~ msgstr "Tiny Tiny RSS をオフラインモードに切り替えますか?"
+
+#~ msgid "Tiny Tiny RSS will reload. Go online?"
+#~ msgstr "Tiny Tiny RSS を再読み込みするでしょう。オンライン処理に移行しますか?"
+
+#~ msgid "Last sync: Cancelled."
+#~ msgstr "最終同期: 取り消されました。"
+
+#~ msgid "This will remove all offline data stored by Tiny Tiny RSS on this computer. Continue?"
+#~ msgstr "これはこのコンピューター上の Tiny Tiny RSS により保存されたすべてのオフラインデータを削除するでしょう。続けますか?"
+
+#~ msgid "Tiny Tiny RSS has trouble accessing its server. Would you like to go offline?"
+#~ msgstr "Tiny Tiny RSS はサーバーへのアクセス中に障害がありました。オフラインモードに移行しますか?"
+
+#~ msgid "Reset category order?"
+#~ msgstr "選択したカテゴリーの順序をリセットしますか?"
+
+#~ msgid "No feeds to display."
+#~ msgstr "表示するフィードがありません。"
+
+#~ msgid "Published Articles"
+#~ msgstr "公開された記事"
+
+#~ msgid "Your Published articles feed URL is:"
+#~ msgstr "公開記事フィードへのリンクです。"
+
+#~ msgid "Replace current publishing address with a new one?"
+#~ msgstr "新しいもので現在の公開アドレスを置き換えますか?"
+
+#~ msgid "Limit bandwidth usage"
+#~ msgstr "帯域の制限を使う"
+
+#~ msgid "Remove selected users?"
+#~ msgstr "選択されたユーザーを削除しますか?"
+
+#~ msgid "Adding feed..."
+#~ msgstr "フィードを追加しています..."
+
+#~ msgid "Assign score to article:"
+#~ msgstr "記事にスコアを割り当てる:"
+
+#~ msgid "Assign selected articles to label?"
+#~ msgstr "ラベルに選択した記事を割り当てますか?"
+
+#~ msgid "Can't open article: received invalid article link"
+#~ msgstr "記事が開けません: 無効な記事リンクを受信しました"
+
+#~ msgid "Category reordering disabled"
+#~ msgstr "カテゴリーの順序変更を無効にしました"
+
+#~ msgid "Category reordering enabled"
+#~ msgstr "カテゴリーの順序変更を有効にしました"
+
+#~ msgid "Changing password..."
+#~ msgstr "パスワードを変更する"
+
+#~ msgid "comments"
+#~ msgstr "コメント"
+
+#~ msgid "Could not change feed URL."
+#~ msgstr "フィードの URL を変更できません。"
+
+#~ msgid "Could not display article (missing XML object)"
+#~ msgstr "記事を表示できません (XML オブジェクトが見当たりません)"
+
+#~ msgid "Could not update headlines (missing XML data)"
+#~ msgstr "ヘッドラインを更新できません (XML データが見当たりません)"
+
+#~ msgid "Could not update headlines (missing XML object)"
+#~ msgstr "ヘッドラインを更新できません (XML オブジェクトが見当たりません)"
+
+#~ msgid "Failed to load article in new window"
+#~ msgstr "新しいウィンドウで記事を開くことができません"
+
+#~ msgid "Failed to open window for the article"
+#~ msgstr "記事用のウィンドウを開くことができません"
+
+#~ msgid "Local data removed."
+#~ msgstr "ローカルのデータを削除しました。"
+
+#~ msgid "Mark as read:"
+#~ msgstr "既読にする:"
+
+#~ msgid "Please wait until operation finishes."
+#~ msgstr "操作が完了するまで待ってください。"
+
+#~ msgid "Remove selected articles from label?"
+#~ msgstr "ラベルから選択した記事を削除しますか?"
+
+#~ msgid "Removing offline data..."
+#~ msgstr "オフラインデータを削除しています..."
+
+#~ msgid "Rescore last 100 articles in selected feeds?"
+#~ msgstr "選択したフィードの最後 100 件の記事のスコアを再計算しますか?"
+
+#~ msgid "Saving feeds..."
+#~ msgstr "フィードを保存しています..."
+
+#~ msgid "Saving filter..."
+#~ msgstr "フィルターを保存しています..."
+
+#~ msgid "Selection"
+#~ msgstr "選択"
+
+#~ msgid "Tiny Tiny RSS is in offline mode."
+#~ msgstr "Tiny Tiny RSS はオフラインモードです。"
+
+#~ msgid "You have to synchronize some articles before going into offline mode."
+#~ msgstr "Google Gears を用いたオフライン処理の新規記事を同期します。"
+
+#~ msgid "Can't open article: received invalid XML"
+#~ msgstr "記事を開けません: 無効な XML を受信しました"
+
+#~ msgid "Changing category of selected feeds..."
+#~ msgstr "選択されたカテゴリーのフィードを削除しています..."
+
+#~ msgid "Erase all non-starred articles in %s?"
+#~ msgstr "%s にあるお気に入りに設定していない記事をすべて削除しますか?"
+
+#~ msgid "Trying to change password..."
+#~ msgstr "パスワードの変更を試みています..."
+
+#~ msgid "Adding category <b>%s</b>...<br>"
+#~ msgstr "カテゴリー <b>%s</b> を追加しています...<br>"
+
+#~ msgid "Done."
+#~ msgstr "終了しました。"
+
+#~ msgid "The configuration was reset to defaults."
+#~ msgstr "設定を標準に戻しました。"
+
+#~ msgid "Change theme"
+#~ msgstr "テーマを変更する"
+
+#~ msgid "Hide read items"
+#~ msgstr "読んだフィードを隠す/再表示する"
+
+#~ msgid "Remove selected feeds from archive?"
+#~ msgstr "ラベルから選択した記事を削除しますか?"
+
+#~ msgid "More feeds..."
+#~ msgstr "更なるフィード..."
+
+#~ msgid "Toggle Feedlist"
+#~ msgstr "フィード一覧を切り替える"
+
+#~ msgid "Search:"
+#~ msgstr "検索:"
+
+#~ msgid "Order:"
+#~ msgstr "並べ替え:"
+
+#~ msgid "browse more"
+#~ msgstr "もっと参照する"
+
+#~ msgid "Feed browser is administratively disabled."
+#~ msgstr "フィードブラウザーは管理者によって無効になっています。"
+
+#~ msgid "Show"
+#~ msgstr "表示"
+
+#~ msgid "Hide from \"Other Feeds\""
+#~ msgstr "「その他のフィード」から隠す"
+
+#~ msgid "Unable to delete non empty feed categories."
+#~ msgstr "殻でないフィードカテゴリーは削除できません。"
+
+#~ msgid "Recategorize"
+#~ msgstr "カテゴリー再設定"
+
+#~ msgid "Generate another link"
+#~ msgstr "別のリンクを生成する"
+
+#~ msgid "Back"
+#~ msgstr "戻る"
+
+#~ msgid "Page"
+#~ msgstr "ページ"
+
+#~ msgid "Tags:"
+#~ msgstr "タグ:"
+
+#~ msgid "Mark as unread"
+#~ msgstr "未読にする"
+
+#~ msgid "Internal error: Function not implemented"
+#~ msgstr "インターナルエラー: 機能が実装されていません"
+
+#~ msgid "Click to view"
+#~ msgstr "編集するにはクリック"
+
+#~ msgid "&nbsp;&nbsp;Keyboard shortcuts"
+#~ msgstr "&nbsp;&nbsp;キーボードショートカット"
+
+#~ msgid "Can't add user: no login specified."
+#~ msgstr "ユーザーが追加できません: ログイン名が指定されていません。"
+
+#~ msgid "Can't create label: missing SQL expression."
+#~ msgstr "ラベルを作成できません: SQL 表現が見当たりません。"
+
+#~ msgid "Saving label..."
+#~ msgstr "ラベルを保存しています..."
+
+#~ msgid "Please select only one label."
+#~ msgstr "ひとつだけラベルを選択してください。"
+
+#~ msgid "Please select only one category."
+#~ msgstr "カテゴリーをひとつだけ選択してください。"
+
+#~ msgid "Address changed."
+#~ msgstr "アドレスを変更しました。"
+
+#~ msgid "Rescore articles in all feeds? This operation may take a lot of time."
+#~ msgstr "すべてのフィードの記事のスコアを再計算しますか? この操作は大量の時間を使うでしょう。"
+
+#~ msgid "Restart in offline mode"
+#~ msgstr "オフラインモードを再起動する"
+
+#~ msgid "Restart in online mode"
+#~ msgstr "オンラインモードを再起動する"
+
+#~ msgid "Remove offline data?"
+#~ msgstr "オフラインデータを削除しますか?"
+
+#~ msgid "Search to label"
+#~ msgstr "ラベルの検索"
+
+#~ msgid "Toggle:"
+#~ msgstr "トグル"
+
+#~ msgid "Convert to label"
+#~ msgstr "ラベルの変換"
+
+#~ msgid "Dashboard"
+#~ msgstr "ダッシュボード"
+
+#~ msgid "Match "
+#~ msgstr "一致 "
+
+#~ msgid "Title contains"
+#~ msgstr "題名の内容"
+
+#~ msgid "Content contains"
+#~ msgstr "コンテンツの内容"
+
+#~ msgid "Score equals"
+#~ msgstr "スコアと同じ"
+
+#~ msgid "Score is greater than"
+#~ msgstr "スコア以上"
+
+#~ msgid "Score is less than"
+#~ msgstr "スコア以下"
+
+#~ msgid "Articles newer than X hours"
+#~ msgstr "記事が X 時間より新しい"
+
+#~ msgid "Articles newer than X days"
+#~ msgstr "記事が X 日より新しい"
+
+#~ msgid "This script is for Tiny Tiny RSS installations with MySQL backend only."
+#~ msgstr "このスクリプトは Tiny Tiny RSS を MySQL バックエンドにのみインストールします。"
+
+#~ msgid "Converting database..."
+#~ msgstr "データベースを変換しています..."
+
+#~ msgid "Unknown Error"
+#~ msgstr "未知のエラー"
+
+#~ msgid "Content Filtering"
+#~ msgstr "コンテンツフィルタリング"
+
+#~ msgid "User Manager"
+#~ msgstr "ユーザー管理"
+
+#~ msgid ""
+#~ "<b>Fatal Error</b>: You forgot to copy \n"
+#~ "\t\t<b>config.php-dist</b> to <b>config.php</b> and edit it.\n"
+#~ msgstr ""
+#~ "<b>致命的なエラー</b>: <b>config.php-dist</b> を\n"
+#~ "\t\t<b>config.php</b> にコピーし、編集することを忘れないでください。\n"
+
+#~ msgid "config: your config file version is incorrect. See config.php-dist.\n"
+#~ msgstr "設定: 設定ファイルのバージョンが不正確です。config.php-dist を参照してください。\n"
+
+#~ msgid ""
+#~ "<b>Fatal error</b>: RSS_BACKEND_TYPE is deprecated. Please remove this\n"
+#~ "\t\t\toption from config.php\n"
+#~ msgstr ""
+#~ "<b>致命的なエラー</b>: RSS_BACKEND_TYPE は非推奨です。\n"
+#~ "\t\t\tこのオプションを config.php から削除してください。\n"
+
+#~ msgid ""
+#~ "<b>Fatal Error</b>: Please set DAEMON_UPDATE_LOGIN_LIMIT\n"
+#~ "\t\t\tto 0 in single user mode.\n"
+#~ msgstr ""
+#~ "<b>致命的なエラー</b>: シングルユーザーモードでは\n"
+#~ "\t\t\t DAEMON_UPDATE_LOGIN_LIMIT を 0 に設定してください。\n"
+
+#~ msgid ""
+#~ "<b>Fatal Error</b>: You have enabled USE_CURL_FOR_ICONS, but your PHP \n"
+#~ "\t\t\tdoesn't seem to support CURL functions."
+#~ msgstr ""
+#~ "<b>致命的なエラー</b>: USE_CURL_FOR_ICONS が有効だが、\n"
+#~ "\t\t\tPHP は CURL 機能をサポートしていないように見えます。"
+
+#~ msgid "config: SESSION_EXPIRE_TIME is undefined"
+#~ msgstr "設定: SESSION_EXPIRE_TIME が未定義です"
+
+#~ msgid "config: SESSION_EXPIRE_TIME is too low (less than 60)"
+#~ msgstr "設定: SESSION_EXPIRE_TIME が低すぎます (60 以下)"
+
+#~ msgid "config: SESSION_EXPIRE_TIME should be greater or equal toSESSION_COOKIE_LIFETIME"
+#~ msgstr "設定: SESSION_EXPIRE_TIME は次の数字以上でなければなりません:"
+
+#~ msgid "config: DATABASE_BACKED_SESSIONS is incompatible with SINGLE_USER_MODE"
+#~ msgstr "設定: DATABASE_BACKED_SESSIONS は SINGLE_USER_MODE と矛盾します"
+
+#~ msgid "config: DATABASE_BACKED_SESSIONS are currently broken with MySQL"
+#~ msgstr "設定: DATABASE_BACKED_SESSIONS は 現在 MySQL では壊れています"
+
+#~ msgid "config: MAIL_FROM has been split into DIGEST_FROM_NAME and DIGEST_FROM_ADDRESS"
+#~ msgstr "設定: MAIL_FROM は DIGEST_FROM_NAME と DIGEST_FROM_ADDRESS に分けられました"
+
+#~ msgid "&nbsp;&nbsp;Subscribe to feed"
+#~ msgstr "&nbsp;&nbsp;フィードを購読する"
+
+#~ msgid "&nbsp;&nbsp;Edit this feed"
+#~ msgstr "&nbsp;&nbsp;このフィードを編集する"
+
+#~ msgid "&nbsp;&nbsp;Clear articles"
+#~ msgstr "&nbsp;&nbsp;記事を消す"
+
+#~ msgid "&nbsp;&nbsp;Rescore feed"
+#~ msgstr "&nbsp;&nbsp;フィードのスコアを再集計する"
+
+#~ msgid "&nbsp;&nbsp;Unsubscribe"
+#~ msgstr "&nbsp;&nbsp;購読をやめる"
+
+#~ msgid "&nbsp;&nbsp;Mark as read"
+#~ msgstr "&nbsp;&nbsp;既読として設定する"
+
+#~ msgid "&nbsp;&nbsp;(Un)hide read feeds"
+#~ msgstr "&nbsp;&nbsp;読んだフィードを隠す/再表示する"
+
+#~ msgid "&nbsp;&nbsp;Create filter"
+#~ msgstr "&nbsp;&nbsp;フィルターを作成する"
+
+#~ msgid "&nbsp;&nbsp;Reset category order"
+#~ msgstr "&nbsp;&nbsp;カテゴリーの順番のリセット"
+
+#~ msgid "Create Label"
+#~ msgstr "ラベルの作成"
+
+#~ msgid "Match SQL"
+#~ msgstr "SQL の一致"
+
+#~ msgid "Feed information:"
+#~ msgstr "フィード情報:"
+
+#~ msgid "Site:"
+#~ msgstr "サイト:"
+
+#~ msgid "Other feeds: Top 25"
+#~ msgstr "その他のフィード: トップ 25"
+
+#~ msgid "Showing top 25 registered feeds, sorted by popularity:"
+#~ msgstr "人気順の登録フィード、トップ 25 を表示中:"
+
+#~ msgid "Top 25"
+#~ msgstr "トップ 25"
+
+#~ msgid "Error: SQL expression is blank."
+#~ msgstr "エラー: SQL 表記が空です。"
+
+#~ msgid "Saved label <b>%s</b>"
+#~ msgstr "ラベル <b>%s</b> を保存しました"
+
+#~ msgid "SQL Expression"
+#~ msgstr "SQL 表記"
+
+#~ msgid "Labels and SQL Expressions"
+#~ msgstr "SQL 表現とラベル"
+
+#~ msgid "Matches all articles for the last week (PostgreSQL):"
+#~ msgstr "再収集のすべての記事に一致 (PostgreSQL):"
+
+#~ msgid "Matches all articles with scores between 100 and 500:"
+#~ msgstr "100 から 500 までのスコアのすべての記事に一致:"
+
+#~ msgid "This program requires XmlHttpRequest "
+#~ msgstr "このプログラムは、XmlHttpRequest を要求します"
+
+#~ msgid "This program requires cookies "
+#~ msgstr "このプログラムはクッキーを要求します"
+
+#~ msgid "filter_type_descr"
+#~ msgstr "filter_type_descr"
+
+#~ msgid "action_description"
+#~ msgstr "action_description"
+
+#~ msgid "Perform action"
+#~ msgstr "操作の実行"
+
+#~ msgid "Change password:"
+#~ msgstr "変更パスワード:"
+
+#~ msgid "Caption:"
+#~ msgstr "キャプション:"
+
+#~ msgid "SQL Expression:"
+#~ msgstr "SQL 表現:"
+
+#~ msgid "Action:"
+#~ msgstr "操作:"
+
+#~ msgid "Params:"
+#~ msgstr "パラメーター:"
+
+#~ msgid "Enable icons in feedlist"
+#~ msgstr "フィード一覧のアイコンを有効にする"
+
+#~ msgid "Toggle"
+#~ msgstr "トグル"
+
+#~ msgid "This page"
+#~ msgstr "このページ"
+
+#~ msgid "Next page"
+#~ msgstr "次のページ"
+
+#~ msgid "Previous page"
+#~ msgstr "前のページ"
+
+#~ msgid "First page"
+#~ msgstr "最初のページ"
