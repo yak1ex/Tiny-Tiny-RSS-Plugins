@@ -23,6 +23,9 @@ class Af_Cpan extends Plugin {
 
 				$changes = fetch_file_contents($article["link"] . 'Changes');
 				if (! $changes) {
+					$changes = fetch_file_contents($article["link"] . 'CHANGES');
+				}
+				if (! $changes) {
 					$changes = fetch_file_contents($article["link"] . 'ChangeLog');
 				}
 				if ($changes) {
