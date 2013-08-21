@@ -31,9 +31,9 @@ class Af_Cpan extends Plugin {
 				if ($changes) {
 					$lines = explode("\n", $changes);
 					if (count($lines) > 20) {
-						$article["content"] = "<pre>" . implode("\n", array_map('html_specialchars', array_slice($lines, 0, 20))) . "\n...</pre>";
+						$article["content"] = "<pre>" . implode("\n", array_map('htmlspecialchars', array_slice($lines, 0, 20))) . "\n...</pre>";
 					} else {
-						$article["content"] = "<pre>" . html_specialchars($changes) . "</pre>";
+						$article["content"] = "<pre>" . htmlspecialchars($changes) . "</pre>";
 					}
 					$article["plugin_data"] = "cpan,$owner_uid:" . $article["plugin_data"];
 				}
