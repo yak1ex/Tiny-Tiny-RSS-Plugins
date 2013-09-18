@@ -22,13 +22,13 @@ class Af_Cpan extends Plugin {
 			if (strpos($article["plugin_data"], "cpan,$owner_uid:") === FALSE) {
 
 				$changes = fetch_file_contents($article["link"] . 'Changes');
-				if (! $changes) {
+				if (!is_string($changes)) {
 					$changes = fetch_file_contents($article["link"] . 'CHANGES');
 				}
-				if (! $changes) {
+				if (!is_string($changes)) {
 					$changes = fetch_file_contents($article["link"] . 'ChangeLog');
 				}
-				if ($changes) {
+				if (is_string($changes)) {
 					$lines = explode("\n", $changes);
 					if (count($lines) > 20) {
 						$article["content"] = "<pre>" . implode("\n", array_map('htmlspecialchars', array_slice($lines, 0, 20))) . "\n...</pre>";
