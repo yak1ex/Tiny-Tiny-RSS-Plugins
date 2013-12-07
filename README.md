@@ -1,3 +1,26 @@
+Tiny Tiny RSS plugins
+=====================
+
+This repository is prepared for plugins and pull requests for Tiny Tiny RSS.
+
+Plugins
+-------
+
+- Replace http scheme in nicovideo with ff-http (af_nicoscheme). I registered ff-http scheme to invoke Firefox to view nicovideo by Firefox only.
+- More google reader keys (googlereaderkeys). If the pull requests below are merged, I will propose a pull request.
+
+Pull requests
+-------------
+
+- Noexpand with noscroll (not yet merged, https://github.com/gothfox/Tiny-Tiny-RSS/pull/256 ).
+- Prevent interpreting as a hotkey prefix when modifiers pressed (not yet merged, https://github.com/gothfox/Tiny-Tiny-RSS/pull/257 ).
+- More use of translations in JS (merged, https://github.com/gothfox/Tiny-Tiny-RSS/pull/263 ).
+- ja_JP translation (merged, https://github.com/gothfox/Tiny-Tiny-RSS/pull/264 ).
+
+The follwoings are original README
+
+________________________________________________________________________________
+
 Tiny Tiny RSS
 =============
 
