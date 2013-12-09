@@ -38,6 +38,9 @@ class Af_Cpan extends Plugin {
 					$article["plugin_data"] = "cpan,$owner_uid:" . $article["plugin_data"];
 				}
 
+                                preg_match('@search\\.cpan\\.org/~([^/]*)@', $article['link'], $matches);
+                                $article['author'] = strtoupper($matches[1]);
+
 			} else if (isset($article["stored"]["content"])) {
 				$article["content"] = $article["stored"]["content"];
 			}
