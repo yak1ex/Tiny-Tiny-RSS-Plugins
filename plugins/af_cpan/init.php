@@ -21,12 +21,12 @@ class Af_Cpan extends Plugin {
 		if (strpos($article["guid"], "search.cpan.org") !== FALSE) {
 			if (strpos($article["plugin_data"], "cpan,$owner_uid:") === FALSE) {
 
-				$changes = fetch_file_contents($article["link"] . 'Changes');
+				$changes = fetch_file_contents($article["link"] . 'Changes', 'text/plain');
 				if (!is_string($changes)) {
-					$changes = fetch_file_contents($article["link"] . 'CHANGES');
+					$changes = fetch_file_contents($article["link"] . 'CHANGES', 'text/plain');
 				}
 				if (!is_string($changes)) {
-					$changes = fetch_file_contents($article["link"] . 'ChangeLog');
+					$changes = fetch_file_contents($article["link"] . 'ChangeLog', 'text/plain');
 				}
 				if (is_string($changes)) {
 					$lines = explode("\n", $changes);
