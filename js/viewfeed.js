@@ -601,7 +601,7 @@ function moveToPost(mode, noscroll, noexpand) {
 
 					} else if (next_id) {
 						cdmExpandArticle(next_id, noexpand);
-						cdmScrollToArticleId(next_id, true);
+						cdmScrollToArticleId(next_id, !noscroll);
 					}
 
 				} else if (next_id) {
@@ -625,7 +625,7 @@ function moveToPost(mode, noscroll, noexpand) {
 							scrollArticle(-ctr.offsetHeight/4);
 						} else {
 							cdmExpandArticle(prev_id, noexpand);
-							cdmScrollToArticleId(prev_id, true);
+							cdmScrollToArticleId(prev_id, !noscroll);
 						}
 					} else {
 
@@ -637,7 +637,7 @@ function moveToPost(mode, noscroll, noexpand) {
 							scrollArticle(-ctr.offsetHeight/4);
 						} else if (prev_id) {
 							cdmExpandArticle(prev_id, noexpand);
-							cdmScrollToArticleId(prev_id, noscroll);
+							cdmScrollToArticleId(prev_id, !noscroll);
 						}
 					}
 
